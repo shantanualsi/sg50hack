@@ -18,5 +18,3 @@ var beaconDataSuccess = function(result){
 	console.log("--------------------------------Is is namsuccess ------------------------");
 	console.log(result.nearestAttractionsList[0].name);
 };
-
-getBeaconData(2);
