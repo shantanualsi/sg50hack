@@ -1,9 +1,17 @@
 package sg.com.sghack.data;
 
 public class Location {
+	private String name;
 	private double latitude;
 	private double longitude;
-	private String name;
+	
+	public Location() {}
+	
+	public Location(String name, double latitude, double longitude) {
+		setName(name);
+		setLatitude(latitude);
+		setLongitude(longitude);
+	}
 	
 	public double getLatitude() {
 		return latitude;
