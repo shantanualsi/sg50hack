@@ -6,28 +6,34 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=device-dpi, user-scalable=0" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="vendor/waves/waves.mn.css" />
+        <link rel="stylesheet" href="css/lib/nativedroid2.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>My Sentosa</title>
     </head>
     <body>
         <div data-role="page" id="home">
         	<div data-role="header">
-        		<h1>Sentosa Tourism</h1>
+            <img class="sentosa-logo" src="img/sentosa-logo_EN.png">
         	</div><!-- /header -->
 
         	<div role="main" class="ui-content">
-        		<div class="visitor-place">You are now at <span>Imbiah Station</span> </div>
-                <div class="visitor-count">You are <span>40th</span> person visiting this place</div>
-                <button id="get-data">Get Data</button>
-                <div class="nearby-attractions">
-                    
-                </div>
-                <div class="ongoing-events">
-                    
-                </div>
-
+        		<div class="visitor-place"><h2>You are now at <span id="current-location-name">Imbiah Station</span> </h2></div>
+                <div class="visitor-count">You are <span id="current-visitor-count"></span> person visiting this place</div>
+                <h3>Nearby Attractions</h3>
+                <div class="nearby-attractions"></div>
+                <h3>Events Nearby</h3>
+                <div class="ongoing-events"></div>
         	</div><!-- /content -->
+
+            <div data-role="header" data-position="fixed">
+                <a href="#leftpanel" class="ui-btn ui-btn-left"><i class="fa fa-bars"></i></a>
+            </div>
+
+            <div data-role="header" data-position="fixed">
+                <a href="#leftpanel" class="ui-btn ui-btn-left"><i class="zmdi zmdi-menu"></i></a>
+            </div>
 
         	<div data-role="footer">
         		<h4></h4>
@@ -36,6 +42,7 @@
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/lib/nativedroid2.js"></script>
         <script type="text/javascript" src="js/datarequests.js"></script>
         <script type="text/javascript" src="js/est.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

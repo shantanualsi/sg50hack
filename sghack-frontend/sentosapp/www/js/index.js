@@ -1,4 +1,3 @@
-    
 /*var app = {
     // Application Constructor
     initialize: function() {
@@ -43,6 +42,7 @@ var app = {
   },
   bindEvents: function() {
       document.addEventListener('deviceready', this.onDeviceReady, false);
+      $(".nearby-attractions").on("click",".okay-button",this.onOkayButtonClick);
   },
   // deviceready Event Handler
   //
@@ -50,6 +50,13 @@ var app = {
   // function, we must explicitly call 'app.receivedEvent(...);'
   onDeviceReady: function() {
     est.startListening();
+  },
+  onOkayButtonClick: function(){
+
+    console.log("Okay Button Clicked");
+
+    $(this).parents(".nd2-card").hide('slow');
+
   }
 
 };
