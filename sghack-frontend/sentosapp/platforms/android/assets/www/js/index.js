@@ -1,4 +1,4 @@
-
+    
 /*var app = {
     // Application Constructor
     initialize: function() {
@@ -49,9 +49,6 @@ var app = {
   // The scope of 'this' is the event. In order to call the 'receivedEvent'
   // function, we must explicitly call 'app.receivedEvent(...);'
   onDeviceReady: function() {
-
-    alert(est);
-    alert("Naman is here 1");
     est.startListening();
   }
 

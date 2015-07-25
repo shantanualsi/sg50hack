@@ -13,18 +13,32 @@
     <body>
         <div data-role="page" id="home">
         	<div data-role="header">
-        		<h1>My Sentosa</h1>
+        		<h1>Sentosa Tourism</h1>
         	</div><!-- /header -->
 
         	<div role="main" class="ui-content">
+        		<div class="visitor-place">You are now at <span>Imbiah Station</span> </div>
+                <div class="visitor-count">You are <span>40th</span> person visiting this place</div>
+                <button id="get-data">Get Data</button>
+                <div class="nearby-attractions">
+                    
+                </div>
+                <div class="ongoing-events">
+                    
+                </div>
 
         	</div><!-- /content -->
+
+        	<div data-role="footer">
+        		<h4></h4>
+        	</div><!-- /footer -->
         </div><!-- /page -->
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/est.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/datarequests.js"></script>
         <script type="text/javascript">
             $(document).on("ready",function(){
 
