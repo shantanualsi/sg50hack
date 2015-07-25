@@ -5,6 +5,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="EstimoteBeacons">
+        <param name="android-package" value="com.evothings.EstimoteBeacons" />
+    </feature>
     <allow-intent href="market:*" />
     <name>Sentosa</name>
     <description>
@@ -79,7 +82,4 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <feature name="EstimoteBeacons">
-        <param name="android-package" value="com.evothings.EstimoteBeacons" />
-    </feature>
 </widget>
