@@ -5,19 +5,25 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=device-dpi, user-scalable=0" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
-        <title>Hello World</title>
+        <title>My Sentosa</title>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Naman Aggarwal</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
+        <div data-role="page" id="home">
+        	<div data-role="header">
+        		<h1>Page Title</h1>
+        	</div><!-- /header -->
+
+        	<div role="main" class="ui-content">
+        		<p>Page content goes here.</p>
+        	</div><!-- /content -->
+
+        	<div data-role="footer">
+        		<h4>Page Footer</h4>
+        	</div><!-- /footer -->
+        </div><!-- /page -->
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
