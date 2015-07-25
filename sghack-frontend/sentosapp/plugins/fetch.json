@@ -6,5 +6,14 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "pl.makingwaves.estimotebeacons": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/evothings/phonegap-estimotebeacons.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
