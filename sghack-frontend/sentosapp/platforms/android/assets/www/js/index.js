@@ -36,8 +36,23 @@ var app = {
 
   initialize:function(){
 
-    console.log("Here");
+    this.bindEvents();
+    console.log("----------------------------------Here------------------------------");
+
+
+  },
+  bindEvents: function() {
+      document.addEventListener('deviceready', this.onDeviceReady, false);
+  },
+  // deviceready Event Handler
+  //
+  // The scope of 'this' is the event. In order to call the 'receivedEvent'
+  // function, we must explicitly call 'app.receivedEvent(...);'
+  onDeviceReady: function() {
+
+    alert(est);
+    alert("Naman is here 1");
+    est.startListening();
   }
 
-
-}
+};
