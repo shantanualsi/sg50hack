@@ -9,6 +9,9 @@
 *.war
 *.ear
 
+#log-file
+sghack.log
+
 #spring-boot ignores
 .gradle
 *.sw?
