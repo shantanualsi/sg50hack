@@ -1,0 +1,56 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=8,IE=9,IE=10" />
+    <title>OneMap-OverLay KML</title>
+     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+     <script type='text/JavaScript' src='onemapinteg.js'></script>
+</head>
+<script language="JavaScript" type="text/JavaScript">
+    var OneMap = new GetOneMap('divMain', 'sm');
+
+    function Overlay() {
+        var kmlPath = document.getElementById('kmlPath').value;
+        OneMap.overlayKML(kmlPath);
+
+    }
+	
+    function clearGraphicsFromMap() {
+        OneMap.clearGraphics()
+    }
+
+</script>
+<body class="tundra">
+    <table>
+        <tr>
+            <td colspan="2" class="header">
+                Overlay KML API Usage
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Specify KML :
+            </td>
+            <td>
+                <input type="text" id="kmlPath" value="http://www.onemap.sg/uploadedcsvkml/sample.kml"
+                    style="width: 398px" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">
+                <input id="Button2" type="button" value="Overlay KML" onclick="Overlay();" />
+                <input id="btnclearGraphics" type="button" value="Clear Graphics" onclick="JavaScript:clearGraphicsFromMap()" />
+            </td>
+        </tr>
+    </table>
+    <div id="divMain" style='width: 500px; height: 500px;'>
+    </div>
+</body>
+</html>
+
