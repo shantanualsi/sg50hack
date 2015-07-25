@@ -1,5 +1,7 @@
 package sg.com.sghack.main;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,7 +10,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import sg.com.sghack.data.AllData;
+import sg.com.sghack.data.Counter;
 import sg.com.sghack.data.NearestAttractions;
+import sg.com.sghack.data.UpcomingEvents;
+import sg.com.sghack.data.VisitorCount;
 
 @RestController
 public class MainController {
@@ -18,12 +23,27 @@ public class MainController {
 	@RequestMapping(value = "/alldata/{beaconid}", method = RequestMethod.GET)
 	public AllData allData(@PathVariable String beaconid) {
 		log.info("Received GET request with beaconid=" + beaconid);
-		return new AllData();
+		VisitorCount.setCounter(beaconid);
+		return new AllData(beaconid);
 	}
 	
 	@RequestMapping(value = "/nearest-attractions/{beaconid}", method = RequestMethod.GET)
-	public NearestAttractions nearestAttractions(@PathVariable String beaconid) {
-		log.info("Received GET request with beaconid=" + beaconid);
+	public NearestAttractions nearestAttractions(@PathVariable String beaconid, HttpServletRequest request) {
+		log.info("Received GET request for nearest-attractions with beaconid=" + beaconid + " from IP => " + request.getRemoteAddr());
+		VisitorCount.setCounter(beaconid);
 		return new NearestAttractions(beaconid);
+	}
+	
+	@RequestMapping(value = "/upcoming-events/{beaconid}", method = RequestMethod.GET)
+	public UpcomingEvents upcomingEvents(@PathVariable String beaconid, HttpServletRequest request) {
+		log.info("Received GET request for upcoming-events with beaconid=" + beaconid + " from IP => " + request.getRemoteAddr());
+		VisitorCount.setCounter(beaconid);
+		return new UpcomingEvents(beaconid);
+	}
+	
+	@RequestMapping(value = "/visitor-count/{beaconid}", method = RequestMethod.GET)
+	public Counter visitorCount(@PathVariable String beaconid, HttpServletRequest request) {
+		log.info("Received GET request for visitor-count with beaconid=" + beaconid + " from IP => " + request.getRemoteAddr());
+		return new Counter(beaconid);
 	}
 }
