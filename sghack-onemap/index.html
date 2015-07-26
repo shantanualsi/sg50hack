@@ -4,59 +4,89 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=7,IE=8,IE=9,IE=10" />
     <title>OneMap-Add Map</title>
+    <!--script type='text/javascript' src='jquery_2.1.js'></script-->
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script type='text/javascript' src='onemapinteg.js'></script>
-    <script type='text/javascript' src='heatmap.js'></script>
     <script language="javascript" type="text/javascript">
        
         //add map with defined center location and zoom level
         //lat long = 1.254572, 103.819449
-        var centerPoint = "26456.41309436758,26349.724355403632"
+        var centerPoint = "26456.41309436758,26349.724355403632";
         var levelNumber = 6;
-        var OneMap = new GetOneMap('divMain', 'SM', { level: levelNumber, center: centerPoint });
+        var OneMap;
+        var overlayCheck = 0;        
+        var serverAddress = 'http://172.20.205.194:8080';
+
+        function overlay(path1) {
+            try{
+               OneMap.overlayKML(path1);
+            }catch(e){
+                console.log("try catch2");
+            }
+
+            // OneMap.overlayKML(path2);
+            // OneMap.overlayKML(path3);
+            // OneMap.overlayKML(kmlPath4);
+            // OneMap.overlayKML(kmlPath5);
+        }
+
+
+        window.onload=function(){
+            try{
+            OneMap = new GetOneMap('divMain', 'SM', { level: levelNumber, center: centerPoint });
+        }catch(e){
+            console.log("try catch");
+        }
+            beaconDataSuccess()
+        };
+
+
+        
 
         function getCurrentLevel() {
             alert("Current Level:" + OneMap.map.getLevel())
         }
 
-    </script>
-
-    <script language="javascript" type="text/javascript">
-
-    function getHeatMap(){
-        // minimal heatmap instance configuration
-            var heatmapInstance = h337.create({
-              // only container is required, the rest will be defaults
-              container: document.querySelector('.tundra')
+        
+        function ajaxCall(){
+            $.ajax({ 
+                
+                type: "GET", 
+                url: serverAddress+'/visitor-count/beacon1', 
+                headers:{ "Access-Control-Allow-Origin":'*', }, 
+                crossDomain: true, 
+                success: beaconDataSuccess, 
+                error: function () { 
+                    console.log("------------------------------ Ajax error ------------------------------- "); 
+                } 
             });
-
-            // now generate some random data
-            var points = [];
-            var max = 0;
-            var width = 840;
-            var height = 400;
-            var len = 200;
-
-            while (len--) {
-              var val = Math.floor(Math.random()*100);
-              max = Math.max(max, val);
-              var point = {
-                x: Math.floor(Math.random()*width),
-                y: Math.floor(Math.random()*height),
-                value: val
-              };
-              points.push(point);
-            }
-            // heatmap data format
-            var data = { 
-              max: max, 
-              data: points 
-            };
-            // if you have a set of datapoints always use setData instead of addData
-            // for data initialization
-            heatmapInstance.setData(data);
         }
-    </script>    
+
+        function beaconDataSuccess(){
+            console.log("data success called")
+            clearGraphicsFromMap();
+            if(overlayCheck == 1){
+               overlay("beacon_data_after_1.kml");
+               overlayCheck = 2;
+            }
+            else if (overlayCheck == 2){
+               overlay("beacon_data_after_2.kml");
+               overlayCheck = 0;   
+            }
+            else{
+               overlay("beacon_1_data.kml");
+               overlayCheck = 1;      
+            }
+
+            setTimeout(beaconDataSuccess,3000);
+        }
+
+    
+        function clearGraphicsFromMap() {
+            OneMap.clearGraphics();
+        }
+
+    </script>
 
 </head>
 <body class="tundra">
@@ -69,7 +99,8 @@
             
         </tr>
     </table>
-    <input id="Button3" type="button" style="width: 150px" value="Current Map Level"
-        onclick="getCurrentLevel()" />
+    
+    <!--input id="Button2" type="button" value="Overlay KML" onclick="Overlay();"/-->
+    <!--input id="btnclearGraphics" type="button" value="Clear Graphics" onclick="JavaScript:clearGraphicsFromMap()"/-->
 </body>
 </html>
