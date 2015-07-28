@@ -1,6 +1,6 @@
 package sg.com.sghack.data.v1;
 
-import sg.com.sghack.mocks.LocationMock;
+import sg.com.sghack.data.v1.mocks.LocationMock;
 
 public class Beacon {
 	private Location beacon;

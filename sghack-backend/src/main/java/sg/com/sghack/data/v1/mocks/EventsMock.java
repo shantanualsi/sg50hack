@@ -1,4 +1,4 @@
-package sg.com.sghack.mocks;
+package sg.com.sghack.data.v1.mocks;
 
 import java.sql.Time;
 import java.util.ArrayList;

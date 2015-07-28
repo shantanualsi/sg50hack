@@ -2,7 +2,7 @@ package sg.com.sghack.data.v1;
 
 import java.util.List;
 
-import sg.com.sghack.mocks.NearestAttractionsMock;
+import sg.com.sghack.data.v1.mocks.NearestAttractionsMock;
 
 public class NearestAttractions {
 	private List<Location> nearestAttractionsList = null;

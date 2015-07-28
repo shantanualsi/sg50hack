@@ -2,7 +2,7 @@ package sg.com.sghack.data.v1;
 
 import java.util.List;
 
-import sg.com.sghack.mocks.UpcomingEventsMock;
+import sg.com.sghack.data.v1.mocks.UpcomingEventsMock;
 
 public class UpcomingEvents {
 	private List<Event> events;
