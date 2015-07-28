@@ -1,4 +1,4 @@
-package sg.com.sghack.data;
+package sg.com.sghack.data.v1;
 
 public class Counter {
 	private long count;
@@ -15,4 +15,5 @@ public class Counter {
 	public void setCount(long count) {
 		this.count = count;
 	}
+
 }

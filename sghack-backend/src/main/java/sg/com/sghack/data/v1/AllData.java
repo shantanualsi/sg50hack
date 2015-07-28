@@ -1,14 +1,16 @@
-package sg.com.sghack.data;
+package sg.com.sghack.data.v1;
 
 public class AllData {
 	private NearestAttractions nearestAttractions;
 	private UpcomingEvents upcomingEvents;
 	private Counter counter;
+	private Beacon beacon;
 	
 	public AllData(String beaconid) {
 		setNearestAttractions(new NearestAttractions(beaconid));
 		setUpcomingEvents(new UpcomingEvents(beaconid));
 		setCounter(new Counter(beaconid));
+		setBeacon(new Beacon(beaconid));
 	}
 	
 	public NearestAttractions getNearestAttractions() {
@@ -28,5 +30,13 @@ public class AllData {
 	}
 	public void setCounter(Counter counter) {
 		this.counter = counter;
+	}
+
+	public Beacon getBeacon() {
+		return beacon;
+	}
+
+	public void setBeacon(Beacon beacon) {
+		this.beacon = beacon;
 	}
 }

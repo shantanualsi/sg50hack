@@ -1,4 +1,4 @@
-package sg.com.sghack.data;
+package sg.com.sghack.data.v1;
 
 import java.util.List;
 
