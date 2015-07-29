@@ -54,5 +54,11 @@ public class MainController {
 		return new Beacon(beaconid);
 	}
 	
+	@RequestMapping(value = "/all-data/{beaconid}", method = RequestMethod.GET)
+	public sg.com.sghack.data.v2.AllData allData(@PathVariable int beaconid, HttpServletRequest request) {
+		log.info("Received GET request for beacon-info with beaconid=" + beaconid + " from IP => " + request.getRemoteAddr());
+		return new sg.com.sghack.data.v2.AllData(beaconid);
+	}
+	
 	
 }

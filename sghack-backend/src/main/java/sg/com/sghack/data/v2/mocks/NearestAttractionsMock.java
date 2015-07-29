@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import sg.com.sghack.data.v2.Attraction;
+import sg.com.sghack.main.MainController;
 
 public class NearestAttractionsMock {
 	private static Attraction universalStudios;
@@ -24,6 +28,7 @@ public class NearestAttractionsMock {
 	private static Attraction southernmostPoint;
 	
 	private static final int MAX_CROWD = 500;
+	private static Logger log = LoggerFactory.getLogger(NearestAttractionsMock.class.getName());
 	
 	private static void init() {
 		Random rand = new Random();
@@ -32,6 +37,7 @@ public class NearestAttractionsMock {
 		//universal studios
 		cwd = rand.nextInt(MAX_CROWD);
 		col = (cwd < 350) ? "green" : "red";
+		universalStudios = new Attraction();
 		universalStudios.setCol(col);
 		universalStudios.setCwd(cwd);
 		universalStudios.setImg("http://192.168.1.8:8080/universal-studios.jpg");
@@ -43,9 +49,10 @@ public class NearestAttractionsMock {
 		//madame tussads
 		cwd = rand.nextInt(MAX_CROWD);
 		col = (cwd < 200) ? "green" : "red";
+		madameTussads = new Attraction();
 		madameTussads.setCol(col);
 		madameTussads.setCwd(cwd);
-		madameTussads.setImg("http://192.168.1.8:8080/universal-studios.jpg");
+		madameTussads.setImg("http://192.168.1.8:8080/madame-tussauds.jpg");
 		madameTussads.setSdesc("Madame Tussauds is a wax museum which was founded by wax sculptor Marie Tussaud and was formerly known as \"Madame Tussaud's\"; the apostrophe is no longer used.");
 		madameTussads.setLdesc("Bringing our unique blend of glitz and glamour, Madame Tussauds Singapore will take you to a party like no other! With 8 fully themed interactive zones and the new \"Spirit of Singapore\" boat ride, get ready to photograph and pose with your favourite A-Listers, challenge sports stars, hop on stage with music legends and come face to face with international icons from Singapore, Asia and beyond.Sports - Fast paced and interactive, the sports zone let you challenge your sporting heroes from the world of basketball, table tennis and football and boxing. Don’t forget to play the hoops in our basketball zone and challenge football starts in our penalty zone!Music - Meet legends from past and present, jump on stage and join the band, perform with Lady Gaga and master the Jackson lean!Film - Film starts with the romance and elegance of early classic Hollywood before the theming turns into a movie studio backlot! Movie cameras, lighting rigs and much more will give you the illusion that you are amongst a real movie set!A-List - Pose for the paparazzi and get ready to socialise with the A-List on the red carpet, including Hollywood favourites Angelina Jolie and Brad Pitt. Mingle with many more celebrities from Singapore and beyond!");
 		madameTussads.setName("Madame Tussads");

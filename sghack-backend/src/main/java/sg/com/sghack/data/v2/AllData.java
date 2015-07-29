@@ -5,6 +5,7 @@ import java.util.List;
 import sg.com.sghack.data.v2.mocks.NearestAmenitiesMock;
 import sg.com.sghack.data.v2.mocks.NearestAttractionsMock;
 import sg.com.sghack.data.v2.mocks.NearestBusMock;
+import sg.com.sghack.data.v2.mocks.NearestRestaurantsMock;
 
 public class AllData {
 	private int beaconid;
@@ -17,18 +18,21 @@ public class AllData {
 	public AllData(int beaconid) {
 		this.beaconid = beaconid;
 		
-		if (beaconid == 123) {
+		if (beaconid == 42892) {
 			nattractions = NearestAttractionsMock.getSetOne();
 			namenities = NearestAmenitiesMock.getSetOne();
 			bus = NearestBusMock.getSetOne();
+			neat = NearestRestaurantsMock.getSetOne();
 		} else if (beaconid == 234) {
-			nattractions = NearestAttractionsMock.getSetTwo();
+			nattractions = NearestAttractionsMock.getSetOne(); //TODO: change this
 			namenities = NearestAmenitiesMock.getSetTwo();
 			bus = NearestBusMock.getSetTwo();
+			neat = NearestRestaurantsMock.getSetTwo();
 		} else {
 			nattractions = NearestAttractionsMock.getSetThree();
 			namenities = NearestAmenitiesMock.getSetThree();
 			bus = NearestBusMock.getSetThree();
+			neat = NearestRestaurantsMock.getSetThree();
 		}
 		
 	}
