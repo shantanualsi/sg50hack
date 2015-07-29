@@ -1,0 +1,32 @@
+.imgHolder{
+  text-align: right;
+}
+
+.content{
+  padding-top: 4%;
+}
+
+.footer{
+  padding-top: 2%;
+  text-align: center;
+}
+
+#map{
+  width:96%;
+  height:600px;
+}
+
+.infoCont{
+
+  border: 1px solid #BBB;
+  border-radius: 4px;
+  padding: 17px;
+  background-color: #EEE;
+  font-size: 1.2em;
+  margin-bottom:18px;
+}
+
+.msgCont{
+  margin-top: 70px;
+  border-color:red;
+}

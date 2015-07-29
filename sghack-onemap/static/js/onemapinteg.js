@@ -612,7 +612,7 @@ function GetOneMap(divName, baseMap, optionalProps) {
 
 	var imageFormat="jpg";
 
-	
+
 
 		if (baseMap.toUpperCase() == "MND") {
 
@@ -630,17 +630,17 @@ function GetOneMap(divName, baseMap, optionalProps) {
 
     NewOneMap.Ready = _Ready;
 
-        
+
 
     dojo.addOnLoad(function () {
 
-        
+
 
         var OneMap3;
 
         var startExtent = getExtentForLevelnCenter(center, level)
 
-        var OneMap3 = new _Map(_OneMapDiv, { extent: startExtent, logo: false, 
+        var OneMap3 = new _Map(_OneMapDiv, { extent: startExtent, logo: false,
 
             sliderStyle: "large"
 
@@ -2060,9 +2060,9 @@ function GetRoute(callback) {
 
 	}
 
-	
 
-	
+
+
 
     url = host + "API/services.svc/route/solve?token=" + token + "&routeStops=" + routestops + "&routeMode=" + routemode + "&avoidERP=" + avoiderp + "&routeOption=" + routeOption + "&barriers=" + barriers;
 
@@ -2654,7 +2654,7 @@ function formatResultsEnhanced(resultObject) {
 
     }
 
-    // for photo to be on bottom 
+    // for photo to be on bottom
 
     for (var key in resultObject[0]) {
 
@@ -2930,7 +2930,7 @@ function hexToRGB(hexValue) {
 
 
 
-//---------------------------------------KML ------------------------------- 
+//---------------------------------------KML -------------------------------
 
 
 
@@ -2950,7 +2950,7 @@ function hexToRGB(hexValue) {
 
 
 
-//-------------------------------------- Overlay KML End here------------------------------- 
+//-------------------------------------- Overlay KML End here-------------------------------
 
 var OneMapKML;
 
@@ -3028,7 +3028,7 @@ function overlayKML(kmlFilePath) {
 
     }
 
-    xmlDoc.load(url);
+    //xmlDoc.load(url);
 
 
 
@@ -3668,7 +3668,7 @@ function addPolygonToMap(polyPath, nameValue) {
 
     gsvc = new _GeometryService(host + "ArcGIS/rest/services/Utilities/Geometry/GeometryServer");
 
-	
+
 
     var npr = new _SpatialReference({ wkid: 3414 });
 
@@ -3730,7 +3730,7 @@ function addPolygonToMap(polyPath, nameValue) {
 
     infoTemplate1.setTitle("KML Info");
 
-	
+
 
 	if (nameValue == "" || nameValue == undefined)
 
@@ -3772,7 +3772,7 @@ function addPolygonToMap(polyPath, nameValue) {
 
                 OneMapKML.graphics.add(graphic1);
 
-            }           
+            }
 
         });
 
@@ -4522,7 +4522,7 @@ function ConvertCoordinate(inputXYList, inputSR, outputSR, callback) {
 
 
 
-			
+
 
             if (inputXYList.split(",").length == 2) {
 
@@ -4733,4 +4733,3 @@ function GetRegisterAPIResults(callback) {
 var _OneMapGlobalToken = '';
 
 document.write('<link rel="stylesheet" type="text/css" href="http://t1.onemap.sg/arcgis_js_api/library/3.10/arcgis/js/dojo/dijit/themes/tundra/tundra.css"/>');document.write('<link rel="stylesheet" type="text/css" href="http://t1.onemap.sg/arcgis_js_api/library/3.10/arcgis/js/esri/css/esri.css"/>');document.write('<script type="text/javascript" src="http://t1.onemap.sg/arcgis_js_api/library/3.10/arcgis/init.js"></script>');var _OneMapGlobalToken='h75zG1KUqysd0pS3qAZIS8zC6Ty3GTlOXaOuYSC86nJ8o72u8iHgk8QLOGonJeuTC2iJq0YIN/8WKBySzsY0f50zlidQ8otcH2dF+Pmpc71+H1KJZXRaLA==';var projSys='';
-

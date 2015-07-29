@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+ <Document>
+  <name>KML Name</name>
+  <description>KML Description</description>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8207, 1.2578</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8206, 1.2576</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8210, 1.2577</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8208, 1.2574</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8199, 1.2572</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8204, 1.2574</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8207, 1.2572</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8203, 1.2571</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8199, 1.2587</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8196, 1.2584</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8191, 1.2591</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8190, 1.2588</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8188, 1.2586</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8191, 1.2585</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8185, 1.2587</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8180, 1.2595</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8181, 1.2587</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8183, 1.2584</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8182, 1.2580</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8191, 1.2574</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8196, 1.2571</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8196, 1.2568</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8202, 1.2564</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8214, 1.2575</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8210, 1.2567</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8215, 1.2571</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8221, 1.2576</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8222, 1.2571</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8214, 1.2569</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8224, 1.2571</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8210, 1.2565</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8219, 1.2567</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8227, 1.2566</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8222, 1.2563</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8212, 1.2562</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8207, 1.2561</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8217, 1.2558</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8230, 1.2566</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8226, 1.2564</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8196, 1.2564</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8183, 1.2578</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8188, 1.2585</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8171, 1.2586</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8173, 1.2573</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8170, 1.2580</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8176, 1.2585</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8175, 1.2598</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8168, 1.2593</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8175, 1.2595</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8181, 1.2574</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8175, 1.2567</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8181, 1.2575</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8182, 1.2565</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8193, 1.2561</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8197, 1.2558</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8201, 1.2556</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8230, 1.2544</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8233, 1.2549</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8228, 1.2553</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8226, 1.2547</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8234, 1.2547</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8240, 1.2546</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8200, 1.2584</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8188, 1.2582</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8190, 1.2574</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8192, 1.2572</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8192, 1.2570</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8199, 1.2566</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8200, 1.2563</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8204, 1.2561</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8206, 1.2569</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8188, 1.2575</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8193, 1.2585</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8198, 1.2584</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8219, 1.2538</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8225, 1.2544</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8242, 1.2546</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8237, 1.2546</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8243, 1.2543</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8246, 1.2540</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8242, 1.2535</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8235, 1.2535</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8234, 1.2546</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8238, 1.2544</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8224, 1.2537</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8237, 1.2538</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8246, 1.2535</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8185, 1.2541</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8166, 1.2555</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8177, 1.2559</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8168, 1.2565</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8164, 1.2573</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8116, 1.2562</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8117, 1.2560</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8106, 1.2566</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8107, 1.2579</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8087, 1.2588</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8086, 1.2587</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8091, 1.2587</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8088, 1.2583</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8095, 1.2581</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8091, 1.2579</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8083, 1.2583</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8092, 1.2573</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8097, 1.2572</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8099, 1.2568</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8110, 1.2566</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8123, 1.2554</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8133, 1.2549</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8129, 1.2553</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8135, 1.2542</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8139, 1.2540</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8144, 1.2537</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8150, 1.2530</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8160, 1.2524</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8187, 1.2530</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8184, 1.2531</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8190, 1.2531</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8187, 1.2539</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8151, 1.2557</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8152, 1.2558</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8146, 1.2562</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8150, 1.2553</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8157, 1.2552</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8161, 1.2551</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8165, 1.2554</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8163, 1.2549</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8169, 1.2548</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8180, 1.2550</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8203, 1.2535</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8208, 1.2543</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8210, 1.2526</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8202, 1.2530</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8165, 1.2540</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8155, 1.2548</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8152, 1.2546</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8164, 1.2535</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8177, 1.2530</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8180, 1.2527</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8174, 1.2524</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8157, 1.2541</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8123, 1.2577</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8132, 1.2583</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8130, 1.2576</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8139, 1.2581</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8194, 1.2527</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8205, 1.2525</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8189, 1.2503</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8178, 1.2505</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8180, 1.2503</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8183, 1.2500</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8188, 1.2497</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8203, 1.2512</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8205, 1.2522</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8199, 1.2549</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8211, 1.2539</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8216, 1.2534</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8215, 1.2527</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8236, 1.2528</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8243, 1.2532</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8203, 1.2517</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8207, 1.2520</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8208, 1.2513</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8209, 1.2511</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8216, 1.2514</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8214, 1.2520</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8217, 1.2496</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8216, 1.2508</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8196, 1.2519</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8191, 1.2523</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8185, 1.2522</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8188, 1.2523</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8189, 1.2520</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8187, 1.2522</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8188, 1.2519</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8191, 1.2518</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8207, 1.2568</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8207, 1.2570</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8208, 1.2572</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8208, 1.2574</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8204, 1.2581</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8205, 1.2583</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8206, 1.2583</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8215, 1.2581</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8216, 1.2582</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8216, 1.2578</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8206, 1.2582</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8205, 1.2581</coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>KML Point</name>
+   <description></description>
+   <Point>
+    <coordinates>103.8208, 1.2582</coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>
