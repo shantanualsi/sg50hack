@@ -1,9 +1,9 @@
-package sg.com.sghack.mocks;
+package sg.com.sghack.data.v1.mocks;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import sg.com.sghack.data.Location;
+import sg.com.sghack.data.v1.Location;
 
 public class LocationMock {
 	
@@ -18,9 +18,9 @@ public class LocationMock {
 	private static Location l8 = new Location("iFly Singapore", 26248.96, 26082.55, "Experience the thrill of skydiving without any of the danger. Take up the whole new sport of bodyflying with iFly Singapore, the world's largest themed wind tunnel for indoor skydiving");
 	
 	//Beacons
-	//private static Location b1 = new Location("beacon1", 26400.64, 26794.64); //Nearest attractions are l1, l2, l3
-	//private static Location b2 = new Location("beacon2", 25744.95, 26762.99); //Nearest attraction is l5
-	//private static Location b3 = new Location("beacon3", 26312.04, 26032.32); // Nearest attractions are l6, l7, l8
+	private static Location b1 = new Location("Next to Hard Rock Hotel", 26400.64, 26794.64, ""); //Nearest attractions are l1, l2, l3
+	private static Location b2 = new Location("Imbiah walk, Siloso Road", 25744.95, 26762.99, ""); //Nearest attraction is l5
+	private static Location b3 = new Location("Beach arrival plaza", 26312.04, 26032.32, ""); // Nearest attractions are l6, l7, l8
 	
 	private static void setImageUrls() {
 		l1.setImageUrl("http://www.citytours.sg/images/Shark%20Seas.jpg");
@@ -55,6 +55,18 @@ public class LocationMock {
 		list.add(l7);
 		list.add(l8);
 		return list;
+	}
+	
+	public static Location getBeaconInfo(String beaconid) {
+		if (beaconid.equals("beacon1")) {
+			return b1;
+		} else if (beaconid.equals("beacon2")) {
+			return b2;
+		} else if (beaconid.equals("beacon3")) {
+			return b3;
+		} else {
+			return null;
+		}
 	}
 	
 }

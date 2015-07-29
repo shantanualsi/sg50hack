@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import sg.com.sghack.data.AllData;
-import sg.com.sghack.data.Counter;
-import sg.com.sghack.data.NearestAttractions;
-import sg.com.sghack.data.UpcomingEvents;
-import sg.com.sghack.data.VisitorCount;
+import sg.com.sghack.data.v1.AllData;
+import sg.com.sghack.data.v1.Beacon;
+import sg.com.sghack.data.v1.Counter;
+import sg.com.sghack.data.v1.NearestAttractions;
+import sg.com.sghack.data.v1.UpcomingEvents;
+import sg.com.sghack.data.v1.VisitorCount;
 
 @RestController
 public class MainController {
@@ -46,4 +47,12 @@ public class MainController {
 		log.info("Received GET request for visitor-count with beaconid=" + beaconid + " from IP => " + request.getRemoteAddr());
 		return new Counter(beaconid);
 	}
+	
+	@RequestMapping(value = "/beacon-info/{beaconid}", method = RequestMethod.GET)
+	public Beacon beaconInfo(@PathVariable String beaconid, HttpServletRequest request) {
+		log.info("Received GET request for beacon-info with beaconid=" + beaconid + " from IP => " + request.getRemoteAddr());
+		return new Beacon(beaconid);
+	}
+	
+	
 }
