@@ -7,6 +7,8 @@ public class Restaurant {
 	private String sdesc;
 	private int cwd;
 	private String col;
+	private String tim;
+	
 	public String getName() {
 		return name;
 	}
@@ -42,5 +44,11 @@ public class Restaurant {
 	}
 	public void setCol(String col) {
 		this.col = col;
+	}
+	public String getTim() {
+		return tim;
+	}
+	public void setTim(String tim) {
+		this.tim = tim;
 	}
 }
