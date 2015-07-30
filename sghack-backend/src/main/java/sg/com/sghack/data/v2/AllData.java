@@ -18,13 +18,13 @@ public class AllData {
 	public AllData(int beaconid) {
 		this.beaconid = beaconid;
 		
-		if (beaconid == 42892) {
+		if (beaconid == 1) {
 			nattractions = NearestAttractionsMock.getSetOne();
 			namenities = NearestAmenitiesMock.getSetOne();
 			bus = NearestBusMock.getSetOne();
 			neat = NearestRestaurantsMock.getSetOne();
-		} else if (beaconid == 234) {
-			nattractions = NearestAttractionsMock.getSetOne(); //TODO: change this
+		} else if (beaconid == 2) {
+			nattractions = NearestAttractionsMock.getSetTwo();
 			namenities = NearestAmenitiesMock.getSetTwo();
 			bus = NearestBusMock.getSetTwo();
 			neat = NearestRestaurantsMock.getSetTwo();
