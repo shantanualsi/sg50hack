@@ -61,10 +61,10 @@ public class AllData {
 	public void setNevents(List<Event> nevents) {
 		this.nevents = nevents;
 	}
-	public List<Amenity> getAmenities() {
+	public List<Amenity> getNamenities() {
 		return namenities;
 	}
-	public void setAmenities(List<Amenity> namenities) {
+	public void setNamenities(List<Amenity> namenities) {
 		this.namenities = namenities;
 	}
 	public List<Restaurant> getNeat() {

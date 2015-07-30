@@ -18,10 +18,11 @@ public class NearestRestaurantsMock {
 		Restaurant res1 = new Restaurant();
 		res1.setCwd(cwd);
 		res1.setCol(col);
-		res1.setImg("http://i488.photobucket.com/albums/rr247/kevin-sg/Universal%20Studios%20Singapore%2022-March-2010/P1030579.jpg");
-		res1.setName("Discovery food court");
-		res1.setSdesc("Khana khane ki jagah");
+		res1.setImg("http://www.sentosadining.com.sg/uploads/martysUSS1.jpg");
+		res1.setName("Marty's Casa Del Wild™ Food Court");
+		res1.setSdesc("A variety of Southeast Asian favorites such as our mouth-watering satay, Tom Yum Gai, tender-juicy roasted chicken, vegetarian specials and more.");
 		res1.setLoc(40);
+		res1.setTim("11am - 6.30pm");
 		
 		List<Restaurant> list = new ArrayList<Restaurant>();
 		list.add(res1);
@@ -38,8 +39,9 @@ public class NearestRestaurantsMock {
 		res1.setCol(col);
 		res1.setImg("http://i488.photobucket.com/albums/rr247/kevin-sg/Universal%20Studios%20Singapore%2022-March-2010/P1030579.jpg");
 		res1.setName("Discovery food court");
-		res1.setSdesc("Khana khane ki jagah");
+		res1.setSdesc("Savour Singapore's best selection of local delights in the building that was featured in the original Jurassic Park movie. Beware of ferocious dinosuars!");
 		res1.setLoc(40);
+		res1.setTim("11am - 7pm");
 		
 		List<Restaurant> list = new ArrayList<Restaurant>();
 		list.add(res1);
@@ -54,10 +56,11 @@ public class NearestRestaurantsMock {
 		Restaurant res1 = new Restaurant();
 		res1.setCwd(cwd);
 		res1.setCol(col);
-		res1.setImg("http://i488.photobucket.com/albums/rr247/kevin-sg/Universal%20Studios%20Singapore%2022-March-2010/P1030579.jpg");
-		res1.setName("Discovery food court");
-		res1.setSdesc("Khana khane ki jagah");
+		res1.setImg("http://www.sentosadining.com.sg/uploads/msiafoodstreet.jpg");
+		res1.setName("Malaysian Food Street");
+		res1.setSdesc("Malaysian Food Street is one dining destination not to be missed! We created a unique old-town ambience to flavour the experience of indulging in some of Malaysia's finest and famous hawker fare.");
 		res1.setLoc(40);
+		res1.setTim("9am - 11pm");
 		
 		List<Restaurant> list = new ArrayList<Restaurant>();
 		list.add(res1);
