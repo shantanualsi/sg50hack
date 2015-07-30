@@ -26,8 +26,9 @@ var est  = {
           console.log("------------------Beacon is ----------- "+becInfo.beacons[0].major);
 
           this.lastClosestBec = becInfo.beacons[0].major;
-
           getBeaconData(this.lastClosestBec);
+
+          //getBeaconData(this.lastClosestBec);
 
 
         }

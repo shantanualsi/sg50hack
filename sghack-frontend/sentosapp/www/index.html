@@ -7,38 +7,152 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=device-dpi, user-scalable=0" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
-        <link rel="stylesheet" href="vendor/waves/waves.mn.css" />
         <link rel="stylesheet" href="css/lib/nativedroid2.css" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>My Sentosa</title>
     </head>
     <body>
-        <div data-role="page" id="home">
-        	<div data-role="header">
-            <img class="sentosa-logo" src="img/sentosa-logo_EN.png">
+        <div data-role="page" id="home" style="background-color:#EEE">
+          <div data-role="panel" data-theme="b" data-display="overlay" id="selPanel">
+            <h3>Settings</h3>
+            <ul id="settings" data-role="listview">
+              <li><span class="setlab">Sentosa Shuttle</span><input id="chk-nbus" class="chkSet" type="checkbox" data-block="nbus" data-role="flipswitch" data-on-text="Show" data-off-text="Hide" checked="" /></li>
+              <li><span class="setlab">Nearest Attractions</span><input id="chk-nattractions" class="chkSet" type="checkbox" data-block="nattractions"  data-role="flipswitch" data-on-text="Show" data-off-text="Hide" checked="" /></li>
+              <li><span class="setlab">Events Nearby</span><input id="chk-nevents" class="chkSet" type="checkbox" data-block="nevents"  data-role="flipswitch" data-on-text="Show" data-off-text="Hide" checked="" /></li>
+              <li><span class="setlab">Ameneties</span><input id="chk-nameneties" class="chkSet" type="checkbox" data-block="nameneties"  data-role="flipswitch" data-on-text="Show" data-off-text="Hide" checked="" /></li>
+              <li><span class="setlab">Places to eat</span><input id="chk-neat" class="chkSet" type="checkbox" data-block="neat"  data-role="flipswitch" data-on-text="Show" data-off-text="Hide" checked="" /></li>
+              <li><span class="setlab">Nearby Rides</span><input id="chk-nrides" class="chkSet" type="checkbox" data-block="nrides"  data-role="flipswitch" data-on-text="Show" data-off-text="Hide" checked="" /></li>
+            </ul>
+          </div>
+        	<div data-role="header" data-theme="a">
+            <h2 style="padding:0px;"><img class="sentosa-logo" src="img/sentosa-logo_EN.png"></h2>
+            <a href="#selPanel" data-theme="b" data-rel="page"  data-transition="slide" data-direction="reverse" class="ui-btn-right ui-btn ui-corner-all ui-btn-icon-right ui-icon-gear"></a>
         	</div><!-- /header -->
 
         	<div role="main" class="ui-content">
-        		<div class="visitor-place"><h2>You are now at <span id="current-location-name">Imbiah Station</span> </h2></div>
-                <div class="visitor-count">You are <span id="current-visitor-count"></span> person visiting this place</div>
-                <h3>Nearby Attractions</h3>
-                <div class="nearby-attractions"></div>
-                <h3>Events Nearby</h3>
-                <div class="ongoing-events"></div>
+        		<div id="mainloc">
+              <h2 class="placename">Imbiah Station</h2>
+              <span class="mcwd">Crowd : <span id="mcwd">45</span> people nearby</span>
+            </div>
+            <div id="nbus" class="infobox nbus">
+              <h3>Next Sentosa Shuttle : <span id="nbustim">5</span> minutes</h3>
+            </div>
+            <div  id="nattractions" class="infobox">
+              <h3>Nearby Attractions</h3>
+              <div class="attractions">
+                <div class="attraction">
+                    <div class="attraction-head"><span class="att-name">Universal Studios</span><span class="att-loc">(20 mts)</span></div>
+                    <div class="attraction-img">
+                      <img alt="Attraction Image" src="http://static.thousandwonders.net/Universal.Studios.Singapore.360.5633.jpg" width=70% height=40%/>
+                    </div>
+                    <div class="attraction-des">
+                      Universal studios singapore does some blah blah and has some blah blah
+                    </div>
+                    <div class="attraction-cwd">
+                      Approx. Crowd : <span class="green">350</span> people
+                    </div>
+                </div>
+                <div class="attraction">
+                    <div class="attraction-head"><span class="att-name">Madam Tussads</span><span class="att-loc">(30 mts)</span></div>
+                    <div class="attraction-img">
+                      <img alt="Attraction Image" src="https://store.sentosa.com.sg/static/prod/MTSG%20-%20581x298.jpg" width=70% height=40%/>
+                    </div>
+                    <div class="attraction-des">
+                      Madam Tussads is a good place.
+                    </div>
+                    <div class="attraction-cwd">
+                      Approx. Crowd : <span class="red">100</span> people
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div  id="nevents" class="infobox">
+              <h3>Events Nearby</h3>
+              <div class="attractions">
+                <div class="attraction">
+                    <div class="attraction-head"><span class="att-name">Wings of Time</span><span class="att-loc">(20 mts)</span></div>
+                    <div class="attraction-img">
+                      <img alt="Attraction Image" src="http://entertainmentdesigner.com/wp-content/uploads/2014/06/ECA2_SEN14_Photos_VeryBestOf-15-copy-560x373.jpg" width=70% height=40%/>
+                    </div>
+                    <div class="attraction-des">
+                      Wings of time is a show that is a good show.
+                    </div>
+                    <div class="attraction-cwd">
+                      Approx. Crowd : <span class="green">350</span> people
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div  id="nameneties" class="infobox">
+              <h3>Ameneties</h3>
+              <div class="attractions">
+                <div class="attraction">
+                    <div class="attraction-head"><span class="att-name">Water Spring</span><span class="att-loc">(5 mts)</span></div>
+                </div>
+                <div class="attraction">
+                    <div class="attraction-head"><span class="att-name">Toilets</span><span class="att-loc">(10 mts)</span></div>
+                </div>
+              </div>
+            </div>
+            <div  id="neat" class="infobox">
+              <h3>Places to eat</h3>
+              <div class="attractions">
+                <div class="attraction">
+                    <div class="attraction-head"><span class="att-name">Azzura Beach Club</span><span class="att-loc">(50 mts)</span></div>
+                    <div class="attraction-img">
+                      <img alt="Attraction Image" src="http://www.sentosadining.com.sg/uploads/azzura2.jpg" width=70% height=40%/>
+                    </div>
+                    <div class="attraction-des">
+                      A multi-level entertainment, dining & hydrosports complex, Azzura is innovatively designed to maximize experiences; thus creating, and offering, a unique lifestyle experience to its guests.
+                    </div>
+                    <div class="attraction-tim">
+                      Timings : 10:00am - 5:00pm
+                    </div>
+                    <div class="attraction-cwd">
+                      Approx. Crowd : <span class="green">350</span> people
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div  id="nrides" class="infobox">
+              <h3>Nearby Rides</h3>
+              <div class="attractions">
+                <div class="attraction">
+                    <div class="attraction-head"><span class="att-name">Transformers</span><span class="att-loc">(50 mts)</span></div>
+                    <div class="attraction-img">
+                      <img alt="Attraction Image" src="http://www.thethemeparkguy.com/park/universal-studios-singapore/transformers-the-ride-at-universal-studios-singapore-big.jpg" width=70% height=40%/>
+                    </div>
+                    <div class="attraction-tim">
+                      Waiting Time : <span class="green">15</span> minutes
+                    </div>
+                </div>
+              </div>
+            </div>
         	</div><!-- /content -->
-
-            <div data-role="header" data-position="fixed">
-                <a href="#leftpanel" class="ui-btn ui-btn-left"><i class="fa fa-bars"></i></a>
-            </div>
-
-            <div data-role="header" data-position="fixed">
-                <a href="#leftpanel" class="ui-btn ui-btn-left"><i class="zmdi zmdi-menu"></i></a>
-            </div>
-
-        	<div data-role="footer">
-        		<h4></h4>
-        	</div><!-- /footer -->
         </div><!-- /page -->
+        <div data-role="page" id="det" style="background-color:#EEE">
+          <div data-role="header" data-theme="a">
+            <a href="#home" data-theme="c" data-rel="page"  data-transition="flip" data-direction="reverse" class="ui-btn-left ui-btn ui-corner-all ui-btn-icon-left ui-icon-back"></a>
+            <h2 style="padding:0px;"><img class="sentosa-logo" src="img/sentosa-logo_EN.png"></h2>
+          </div><!-- /header -->
+          <div role="main" class="ui-content">
+            <div class="infobox infoboxdet">
+              <div class="attractions">
+                <div class="attraction detattraction">
+                    <div class="attraction-head attraction-head-det"><span class="att-name">Universal Studios</span><span class="att-loc">(20 mts)</span></div>
+                    <div class="attraction-img">
+                      <img alt="Attraction Image" src="http://static.thousandwonders.net/Universal.Studios.Singapore.360.5633.jpg" width=70% height=40%/>
+                    </div>
+                    <div class="attraction-des">
+                      Universal studios singapore does some blah blah and has some blah blah
+                    </div>
+                    <div class="attraction-cwd">
+                      Approx. Crowd : <span class="green">350</span> people
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="cordova.js"></script>

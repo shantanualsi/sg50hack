@@ -11,13 +11,22 @@ module.exports = [
         "clobbers": [
             "estimote"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+        "id": "cordova-plugin-vibration.notification",
+        "merges": [
+            "navigator.notification",
+            "navigator"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.0.0",
-    "pl.makingwaves.estimotebeacons": "0.7.1"
+    "pl.makingwaves.estimotebeacons": "0.7.1",
+    "cordova-plugin-vibration": "1.2.0"
 }
 // BOTTOM OF METADATA
 });

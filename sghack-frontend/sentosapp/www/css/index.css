@@ -2,6 +2,90 @@
 	background-color: #31302E;
 }
 
-.float-right{
-	float: right;
+#mainloc{
+	text-align:center;
+	margin-bottom:10px;
+	display: none;
+}
+
+#mainloc .placename{
+	margin-bottom:1px;
+}
+#mainloc .mcwd{
+	font-size:.9em
+}
+.setlab{
+	display: inline-block;
+	width: 60%;
+}
+.infobox{
+	display: none;
+	background-color: #FFF;
+	padding: 4px 0px;
+	margin-bottom: 8px;
+	border: 1px solid #EEE;
+	box-shadow: 1px 1px 1px 1px #BBB;
+
+}
+
+.infoboxdet{
+	display: block;
+}
+
+.infobox h3{
+	padding: 6px 6px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	border-bottom: 1px solid #BBB;
+}
+
+.attraction{
+	border-bottom: 1px solid #BBB;
+	margin-top:6px;
+
+
+}
+
+.red{
+	color:red;
+}
+.green{
+	color:green;
+}
+.attraction .attraction-head{
+	text-align: left;
+	padding-left: 5%;
+	font-size: 1.1em;
+	margin-bottom: 4px;
+}
+
+.attraction .attraction-head.attraction-head-det{
+
+	padding-left: 0px;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.attraction .attraction-img{
+	text-align: center;
+}
+
+.attraction .att-loc{
+	padding-left: 1%;
+	font-size: 0.7em;
+}
+
+.attraction .attraction-des,.attraction-ldes,.attraction-cwd,.attraction-tim{
+
+	padding: 1px 10px;
+	padding-bottom: 1px;
+}
+
+.attraction-tim{
+	padding-top: 2px;
+}
+.nbus h3{
+	border: 0px;
+	margin-bottom: 0px;
 }
